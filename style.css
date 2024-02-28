@@ -1,0 +1,20 @@
+
+:root{
+    --cor-de-fundo: blue
+    --cor-de-titulo-principal: 
+    --texto: marron
+
+
+}
+
+.botao{
+    color: maroon;
+    margin-bottom: 40pt;
+    width: 150pt;
+    background-color: orange;
+}
+.Titulo-principal{
+    margin-top: 40pt;
+    margin-bottom: 60pt;
+    color: rgb(84, 84, 216);
+}
