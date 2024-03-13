@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 :root{
-    --cor-de-fundo: blue
-    --cor-de-titulo-principal: 
-    --texto: marron
+    --cor-de-fundo: #161618;
+    --verde: #6FFF57;
+    --branco: #FFFFFF;
+    --botao-ativo: #3A375E;
+    --botao-inativo: rgba(58, 55, 94, 0.5);
+    --texto-fundo: rgba(58, 55, 94, 0.3);
 
-
+    
 }
 
 .botao{
@@ -17,4 +21,27 @@
     margin-top: 40pt;
     margin-bottom: 60pt;
     color: rgb(84, 84, 216);
+}
+
+body{
+    font-family: "Oswald", sans-serif;
+    font-size: 40pt;
+    background-image: url(https://oglobo.globo.com/politica/noticia/2024/03/12/datafolha-63percent-dos-eleitores-de-sp-nao-votariam-em-um-candidato-apoiado-por-bolsonaro-contra-42percent-de-lula.ghtml);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+    
+}
+
+.titulo-principal span {
+    color: red;
+}
+.titulo-principal{
+    color: blue
 }
