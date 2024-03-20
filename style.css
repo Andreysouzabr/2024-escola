@@ -16,6 +16,13 @@
     margin-bottom: 40pt;
     width: 150pt;
     background-color: orange;
+    border-bottom: 4px solid var(--botao-ativo); 
+    border-left: 2px solid var(--botao-ativo); 
+    border-right: 2px solid var(--botao-ativo); 
+    border-top: none;
+    font-size: 18px;
+    
+
 }
 .Titulo-principal{
     margin-top: 40pt;
@@ -26,8 +33,7 @@
 body{
     font-family: "Oswald", sans-serif;
     font-size: 40pt;
-    background-image: url(https://oglobo.globo.com/politica/noticia/2024/03/12/datafolha-63percent-dos-eleitores-de-sp-nao-votariam-em-um-candidato-apoiado-por-bolsonaro-contra-42percent-de-lula.ghtml);
-
+    background-image: url(imagens/images.jpeg);
     display: flex;
     flex-direction: column;
     justify-content: center;
